@@ -3,1583 +3,367 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Favicon -->
+<title>Musembi Creations | Voiceovers, Video, Podcasts & Media Consulting in Kenya</title>
+<meta name="description" content="Musembi Creations is the media studio of Kelvin Musembi, journalist and voice artist in Kenya. Voiceovers, voiceover plus video, script writing, podcast production, media consultation and a voice academy.">
+<meta name="keywords" content="voice over Kenya, voice artist Kenya, podcast production Kenya, media consultation Kenya, script writing Kenya, voice training Kenya, Swahili voice over, Kikamba voice over, Kelvin Musembi">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Musembi Creations">
+<link rel="canonical" href="https://musembicreations.co.ke/">
 <link rel="icon" type="image/png" href="logo-favicon.png">
 <link rel="apple-touch-icon" href="logo-favicon.png">
-
-<!-- SEO: Page Title -->
-<title>Musembi Creations — Journalist & Voice Artist | Kenya</title>
-
-<!-- SEO: Meta Description -->
-<meta name="description" content="I'm Kelvin Musembi, a journalist and voice artist based in Kenya. Commercial, corporate, radio imaging, e-learning and Skiza voice-overs in English, Swahili & Kikamba. Request a quote online.">
-
-<!-- SEO: Meta Keywords -->
-<meta name="keywords" content="voice over Kenya, voice artist Kenya, radio imaging Kenya, narration services Kenya, commercial voice over Kenya, audio production Kenya, voice over artist Kenya, Swahili voice over, Kikamba voice over, corporate narration Kenya, e-learning narration Kenya, documentary narration Kenya, professional voice artist Kenya">
-
-<!-- SEO: Canonical URL -->
-<link rel="canonical" href="https://musembicreations.co.ke/">
-
-<!-- Open Graph (Facebook, WhatsApp, LinkedIn previews) -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Musembi Creations — Journalist & Voice Artist">
-<meta property="og:description" content="I'm Kelvin Musembi, a journalist and voice artist based in Kenya. Commercial, corporate, radio imaging, e-learning and Skiza voice-overs in English, Swahili & Kikamba.">
+<meta property="og:title" content="Musembi Creations: Ideas, Voice, Impact">
+<meta property="og:description" content="Voiceovers, video, scripts, podcasts, media consultation and voice training from Kelvin Musembi.">
 <meta property="og:image" content="https://musembicreations.co.ke/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 <meta property="og:url" content="https://musembicreations.co.ke/">
 <meta property="og:site_name" content="Musembi Creations">
 <meta property="og:locale" content="en_KE">
-
-<!-- Twitter / X Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Musembi Creations — Journalist & Voice Artist">
-<meta name="twitter:description" content="Journalist and voice artist. Kenya.">
-<meta name="twitter:image" content="https://musembicreations.co.ke/og-image.png">
-<meta name="twitter:site" content="@VoiceOfMusembi">
-
-<!-- Indexing -->
-<meta name="robots" content="index, follow">
-<meta name="author" content="Musembi Creations">
-
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-:root {
-  --blue: #0D0D0D;
-  --blue-dark: #0D0D0D;
-  --orange: #F07204;
-  --orange-light: #F5934A;
-  --white: #FFFFFF;
-  --cream: #FDF8F3;
-  --light-blue: #F2F2F2;
-  --text: #0D0D0D;
-  --gray: #5A6678;
-}
-
-html { scroll-behavior: smooth; }
-
-body {
-  font-family: 'Barlow', sans-serif;
-  background: var(--cream);
-  color: var(--text);
-  overflow-x: hidden;
-}
-
-/* ===== NAVBAR ===== */
-.navbar {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  background: rgba(13,13,13,0.97);
-  backdrop-filter: blur(8px);
-  padding: 12px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid rgba(240,114,4,0.2);
-}
-
-.navbar-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-}
-
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-  object-fit: contain;
-}
-
-.navbar-logo-text { display: none; }
-
-.navbar-cta {
-  background: var(--orange);
-  color: white;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 9px 20px;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: background 0.2s;
-  white-space: nowrap;
-}
-
-.navbar-cta:hover { background: var(--orange-light); }
-
-@media (max-width: 480px) {
-  .navbar { padding: 10px 16px; }
-  .navbar-logo-text { font-size: 16px; }
-}
-
-/* ===== HERO ===== */
-.hero {
-  background: var(--blue-dark);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  padding: 120px 40px 60px;
-}
-
-.hero-logo { margin-bottom: 20px; }
-
-.hero-logo img {
-  height: 160px;
-  width: auto;
-  object-fit: contain;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -300px; right: -300px;
-  width: 600px; height: 600px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(240,114,4,0.15), transparent 70%);
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  bottom: -200px; left: -200px;
-  width: 500px; height: 500px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(13,13,13,0.2), transparent 70%);
-}
-
-.hero-content { position: relative; z-index: 2; max-width: 900px; }
-
-.hero-badge {
-  display: inline-block;
-  background: rgba(240,114,4,0.15);
-  border: 1px solid rgba(240,114,4,0.3);
-  color: var(--orange-light);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 8px 20px;
-  margin-bottom: 24px;
-}
-
-.hero-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(48px, 8vw, 88px);
-  color: var(--white);
-  line-height: 0.95;
-  margin-bottom: 16px;
-}
-
-.hero-title em { color: var(--orange); font-style: italic; }
-
-.hero-subtitle {
-  font-size: 16px;
-  color: rgba(255,255,255,0.7);
-  margin-bottom: 12px;
-  font-weight: 500;
-}
-
-.hero-sub {
-  font-size: 15px;
-  color: rgba(255,255,255,0.5);
-  max-width: 640px;
-  line-height: 1.7;
-  margin: 0 auto 36px;
-  font-weight: 300;
-}
-
-.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-
-.hero-cta {
-  display: inline-block;
-  background: var(--orange);
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 14px 36px;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.2s;
-}
-
-.hero-cta:hover {
-  background: var(--orange-light);
-  transform: translateY(-2px);
-}
-
-.hero-cta.outline {
-  background: transparent;
-  border: 2px solid rgba(255,255,255,0.4);
-  color: var(--white);
-}
-
-.hero-cta.outline:hover {
-  border-color: var(--orange);
-  color: var(--orange-light);
-  background: transparent;
-}
-
-/* ===== SECTIONS ===== */
-.section {
-  padding: 80px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-label {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 4px;
-  color: var(--orange);
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.section-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: clamp(28px, 4.2vw, 44px);
-  color: var(--blue-dark);
-  margin-bottom: 16px;
-  line-height: 1.15;
-}
-
-.section-title em { color: var(--orange); font-style: italic; }
-
-.section-intro {
-  font-size: 15px;
-  color: var(--gray);
-  line-height: 1.7;
-  max-width: 640px;
-  margin-bottom: 48px;
-  font-weight: 300;
-}
-
-/* ===== HOW IT WORKS BANNER ===== */
-.how-it-works {
-  background: var(--orange-light);
-  padding: 16px 24px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.how-it-works-icon {
-  font-size: 18px;
-  animation: bounceDown 1.4s ease-in-out infinite;
-}
-
-@keyframes bounceDown {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(4px); }
-}
-
-.how-it-works-text {
-  font-size: 13px;
-  font-weight: 600;
-  color: white;
-  letter-spacing: 0.3px;
-}
-
-@media (max-width: 480px) {
-  .how-it-works { padding: 12px 16px; }
-  .how-it-works-text { font-size: 12px; }
-}
-
-/* ===== STATS STRIP ===== */
-.stats-strip {
-  background: var(--orange);
-  padding: 28px 40px;
-}
-
-.stats-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  flex-wrap: wrap;
-}
-
-.stat-item {
-  text-align: center;
-  padding: 8px 40px;
-  flex: 1;
-  min-width: 160px;
-}
-
-.stat-number {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 42px;
-  color: var(--white);
-  line-height: 1;
-  margin-bottom: 4px;
-}
-
-.stat-label {
-  font-size: 12px;
-  color: rgba(255,255,255,0.85);
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.stat-divider {
-  width: 1px;
-  height: 48px;
-  background: rgba(255,255,255,0.3);
-  flex-shrink: 0;
-}
-
-@media (max-width: 640px) {
-  .stat-divider { display: none; }
-  .stat-item { min-width: 140px; padding: 12px 20px; }
-  .stat-number { font-size: 34px; }
-}
-
-/* ===== DEMOS ===== */
-.demos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-}
-
-.demo-card {
-  background: var(--white);
-  padding: 20px;
-  border-left: 3px solid var(--orange);
-  box-shadow: 0 2px 8px rgba(13,13,13,0.06);
-}
-
-.demo-label {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: var(--orange);
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.demo-player { background: var(--light-blue); padding: 10px; border-radius: 3px; }
-.demo-player audio { width: 100%; height: 28px; }
-
-/* ===== TRUSTED BY ===== */
-.trusted-section {
-  background: var(--blue-dark);
-  padding: 60px 40px;
-}
-
-.trusted-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.trusted-label {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 4px;
-  color: rgba(255,255,255,0.4);
-  text-transform: uppercase;
-  margin-bottom: 32px;
-}
-
-.trusted-groups {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 32px;
-}
-
-.trusted-group h4 {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  color: var(--orange);
-  text-transform: uppercase;
-  margin-bottom: 16px;
-}
-
-.trusted-names {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.trusted-name {
-  font-size: 15px;
-  color: rgba(255,255,255,0.75);
-  font-weight: 500;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.07);
-}
-
-/* ===== WHY CHOOSE ===== */
-.why-section {
-  background: var(--light-blue);
-  padding: 80px 40px;
-}
-
-.why-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin-top: 40px;
-}
-
-.why-card {
-  background: var(--white);
-  padding: 28px 24px;
-  border-top: 3px solid var(--orange);
-  text-align: center;
-}
-
-.why-icon { font-size: 28px; margin-bottom: 12px; }
-
-.why-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: var(--blue-dark);
-  margin-bottom: 8px;
-}
-
-.why-desc { font-size: 13px; color: var(--gray); line-height: 1.6; }
-
-/* ===== ABOUT ME ===== */
-.about-section {
-  padding: 80px 40px;
-  background: var(--white);
-}
-
-.about-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 64px;
-  align-items: center;
-}
-
-.about-photo-wrap {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.about-photo {
-  width: 100%;
-  aspect-ratio: 4/5;
-  object-fit: cover;
-  object-position: top center;
-  display: block;
-  border-top: 5px solid var(--orange);
-  border-left: 5px solid var(--blue);
-  box-shadow: 12px 12px 0px var(--light-blue);
-}
-
-.photo-placeholder {
-  width: 100%;
-  aspect-ratio: 4/5;
-  background: var(--light-blue);
-  border-top: 5px solid var(--orange);
-  border-left: 5px solid var(--blue);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  color: var(--gray);
-  gap: 12px;
-}
-
-.photo-placeholder span {
-  font-size: 13px;
-  text-align: center;
-  line-height: 1.6;
-}
-
-.about-photo-badge {
-  position: absolute;
-  bottom: -16px;
-  right: -16px;
-  background: var(--orange);
-  color: white;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 10px 16px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(240,114,4,0.3);
-}
-
-.about-bio {
-  font-size: 15px;
-  color: var(--gray);
-  line-height: 1.8;
-  margin-bottom: 16px;
-  font-weight: 400;
-}
-
-.about-bio strong { color: var(--text); }
-
-.about-credentials {
-  margin: 24px 0 28px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.credential {
-  font-size: 13px;
-  color: var(--text);
-  padding: 10px 14px;
-  background: var(--cream);
-  border-left: 3px solid var(--orange);
-  font-weight: 500;
-}
-
-.about-socials {
-  display: flex;
-  gap: 12px;
-  margin: 24px 0 28px;
-  flex-wrap: wrap;
-}
-
-.social-btn {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 20px;
-  text-decoration: none;
-  transition: all 0.2s;
-  flex: 1;
-  min-width: 160px;
-}
-
-.social-btn:hover { transform: translateY(-2px); opacity: 0.9; }
-
-.social-btn.facebook { background: #1877F2; }
-.social-btn.tiktok   { background: #010101; }
-
-.social-icon {
-  font-size: 20px;
-  font-weight: 900;
-  color: white;
-  width: 28px;
-  text-align: center;
-}
-
-.social-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.social-name {
-  font-size: 11px;
-  color: rgba(255,255,255,0.7);
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.social-handle {
-  font-size: 13px;
-  color: white;
-  font-weight: 700;
-}
-
-.about-cta {
-  display: inline-block;
-  background: var(--blue-dark);
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 14px 32px;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.2s;
-}
-
-.about-cta:hover {
-  background: var(--orange);
-  transform: translateY(-2px);
-}
-
-@media (max-width: 900px) {
-  .about-inner {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .about-photo-wrap { max-width: 320px; margin: 0 auto; }
-}
-
-/* ===== SERVICES ===== */
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.service-card {
-  background: var(--white);
-  padding: 28px;
-  border-top: 3px solid var(--blue);
-  box-shadow: 0 2px 10px rgba(13,13,13,0.07);
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.service-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(13,13,13,0.13);
-  border-top-color: var(--orange);
-}
-
-.service-icon { font-size: 26px; margin-bottom: 4px; }
-
-.service-name {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--blue-dark);
-}
-
-.service-desc {
-  font-size: 13px;
-  color: var(--gray);
-  line-height: 1.5;
-  flex: 1;
-}
-
-.service-price {
-  font-size: 13px;
-  color: var(--orange);
-  font-weight: 700;
-  margin-top: 4px;
-}
-
-.service-listen {
-  margin-top: 10px;
-  background: var(--light-blue);
-  padding: 8px 10px;
-  border-radius: 3px;
-}
-
-.service-listen-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: var(--gray);
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-
-.service-listen audio {
-  width: 100%;
-  height: 28px;
-}
-
-.service-select-btn {
-  margin-top: 12px;
-  background: var(--orange);
-  color: white;
-  border: none;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: background 0.2s;
-  text-align: center;
-}
-
-.service-select-btn:hover { background: var(--blue-dark); }
-
-/* ===== CONTACT ===== */
-.contact-section {
-  background: var(--blue-dark);
-  padding: 80px 40px;
-}
-
-.contact-inner {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.contact-section .section-title { color: var(--white); }
-.contact-section .section-intro { color: rgba(255,255,255,0.55); margin-bottom: 36px; }
-
-.form-group { margin-bottom: 18px; }
-
-.form-hint {
-  font-size: 12px;
-  color: rgba(255,255,255,0.4);
-  margin-top: 6px;
-  font-style: italic;
-}
-
-.swahili-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
-  margin-top: 24px;
-}
-
-.swahili-card {
-  background: var(--light-blue);
-  padding: 16px;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.swahili-card-label {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: var(--orange);
-  text-transform: uppercase;
-  margin-bottom: 8px;
-}
-
-.swahili-card audio {
-  width: 100%;
-  height: 32px;
-}
-
-.form-label {
-  display: block;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: rgba(255,255,255,0.45);
-  margin-bottom: 7px;
-  text-transform: uppercase;
-}
-
-.form-input, .form-select, .form-textarea {
-  width: 100%;
-  background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(255,255,255,0.13);
-  color: var(--white);
-  font-family: 'Barlow', sans-serif;
-  font-size: 14px;
-  padding: 12px 16px;
-  transition: border-color 0.2s;
-  outline: none;
-}
-
-.form-input::placeholder, .form-textarea::placeholder { color: rgba(255,255,255,0.25); }
-
-.form-input:focus, .form-select:focus, .form-textarea:focus {
-  border-color: var(--orange);
-}
-
-.form-textarea { min-height: 110px; resize: vertical; }
-.form-select option { background: var(--blue-dark); color: var(--white); }
-
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-
-.pricing-note {
-  font-size: 12px;
-  color: rgba(255,255,255,0.35);
-  margin: 16px 0;
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.submit-btn {
-  width: 100%;
-  background: var(--orange);
-  color: white;
-  border: none;
-  font-family: 'Barlow', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 15px;
-  cursor: pointer;
-  transition: all 0.2s;
-  margin-top: 4px;
-}
-
-.submit-btn:hover { background: var(--orange-light); transform: translateY(-1px); }
-
-.contact-alts {
-  display: flex;
-  gap: 12px;
-  margin-top: 16px;
-  flex-wrap: wrap;
-}
-
-.wa-btn {
-  flex: 1;
-  display: block;
-  text-align: center;
-  background: #25D366;
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 14px 20px;
-  text-decoration: none;
-  transition: all 0.2s;
-  letter-spacing: 0.5px;
-}
-
-.wa-btn:hover { opacity: 0.9; transform: translateY(-1px); }
-
-.call-btn {
-  flex: 1;
-  display: block;
-  text-align: center;
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 14px 20px;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-
-.call-btn:hover { background: rgba(255,255,255,0.15); }
-
-.response-promise {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 13px;
-  color: rgba(255,255,255,0.4);
-}
-
-.response-promise strong { color: var(--orange-light); }
-
-.payment-box {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 24px;
-  margin-top: 28px;
-}
-
-.payment-title {
-  font-size: 13px;
-  font-weight: 700;
-  color: rgba(255,255,255,0.6);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-}
-
-.payment-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-bottom: 14px;
-}
-
-.payment-item {
-  background: rgba(255,255,255,0.05);
-  padding: 14px;
-  border-left: 3px solid var(--orange);
-}
-
-.payment-method {
-  font-size: 11px;
-  letter-spacing: 1px;
-  color: var(--orange-light);
-  font-weight: 600;
-  margin-bottom: 6px;
-  text-transform: uppercase;
-}
-
-.payment-detail {
-  font-size: 14px;
-  color: rgba(255,255,255,0.8);
-}
-
-.payment-detail strong { color: var(--white); }
-
-.payment-note {
-  font-size: 12px;
-  color: rgba(255,255,255,0.35);
-  font-style: italic;
-  text-align: center;
-}
-
-.contact-email {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-  color: rgba(255,255,255,0.5);
-}
-
-.contact-email a {
-  color: var(--orange-light);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.contact-email a:hover { text-decoration: underline; }
-
-@media (max-width: 480px) {
-  .payment-grid { grid-template-columns: 1fr; }
-}
-
-/* ===== SUCCESS BANNER ===== */
-#success-banner {
-  display: none;
-  position: fixed;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #25D366;
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 14px 28px;
-  z-index: 9999;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-  text-align: center;
-  border-radius: 4px;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  background: var(--text);
-  padding: 32px 40px;
-  text-align: center;
-  color: rgba(255,255,255,0.35);
-  font-size: 12px;
-}
-
-footer strong { color: rgba(255,255,255,0.6); }
-
-@media (max-width: 768px) {
-  .section { padding: 56px 20px; }
-  .trusted-section, .contact-section, .why-section { padding: 56px 20px; }
-  .form-row { grid-template-columns: 1fr; }
-  .hero-buttons { flex-direction: column; align-items: center; }
-  .hero-cta { width: 240px; text-align: center; }
-  .contact-alts { flex-direction: column; }
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--o:#F07204;--o2:#F5934A;--ink:#000;--s1:#111;--s2:#1b1b1b;--line:rgba(255,255,255,.14);--mute:rgba(255,255,255,.68);--w:#fff;--pad:clamp(20px,5vw,64px)}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:'Barlow',sans-serif;font-size:17px;line-height:1.6;background:var(--ink);color:var(--w);overflow-x:hidden}
+h1,h2,h3{font-family:'Montserrat',sans-serif;font-weight:800;line-height:1.05;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--o2);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 var(--pad)}
+section{padding:clamp(64px,9vw,112px) 0}
+h2{font-size:clamp(30px,4.6vw,52px);margin-bottom:18px}
+.lead{color:var(--mute);max-width:56ch;font-size:18px}
+
+/* buttons */
+.btn{display:inline-block;font:700 15px 'Montserrat',sans-serif;background:var(--o);color:#000;padding:15px 28px;border:0;text-decoration:none;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--o2)}
+.btn.ghost{background:transparent;color:var(--w);border:2px solid var(--line)}
+.btn.ghost:hover{border-color:var(--o);color:var(--o2)}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(0,0,0,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.nav img{height:46px;width:auto;display:block}
+.nav ul{display:flex;gap:28px;list-style:none;font:600 14px 'Montserrat',sans-serif}
+.nav ul a{text-decoration:none;color:var(--mute)}
+.nav ul a:hover{color:var(--w)}
+.nav .btn{padding:11px 20px;font-size:13px}
+@media(max-width:860px){.nav ul{display:none}}
+
+/* hero */
+.hero{padding:150px 0 0;position:relative;overflow:hidden}
+.hero h1{font-size:clamp(46px,9.5vw,118px);max-width:11ch}
+.hero h1 span{display:block}
+.hero h1 span:nth-child(2){color:var(--o)}
+.hero p{margin:26px 0 34px;color:var(--mute);max-width:52ch;font-size:19px}
+.hero .row{display:flex;gap:14px;flex-wrap:wrap}
+.wave{display:flex;align-items:center;gap:5px;height:140px;margin-top:70px}
+.wave i{flex:1;min-width:2px;background:linear-gradient(var(--o2),var(--o));border-radius:2px;transform-origin:center;animation:rise .9s cubic-bezier(.2,.7,.2,1) backwards}
+@keyframes rise{from{transform:scaleY(.04);opacity:0}}
+
+/* facts */
+.facts{border-block:1px solid var(--line);padding:34px 0}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.facts b{display:block;font:800 clamp(28px,4vw,42px) 'Montserrat',sans-serif;color:var(--o)}
+.facts span{color:var(--mute);font-size:15px}
+@media(max-width:700px){.facts .wrap{grid-template-columns:1fr 1fr}}
+
+/* services list */
+.svc{list-style:none;margin-top:44px;border-top:1px solid var(--line)}
+.svc li{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr) auto;gap:20px 40px;align-items:start;padding:30px 0;border-bottom:1px solid var(--line)}
+.svc h3{font-size:clamp(22px,2.6vw,30px)}
+.svc p{color:var(--mute)}
+.svc small{display:block;margin-top:10px;color:var(--o2);font-size:15px}
+.svc button{background:none;border:0;color:var(--o2);font:700 14px 'Montserrat',sans-serif;cursor:pointer;padding:4px 0;white-space:nowrap;text-decoration:underline;text-underline-offset:5px}
+.svc button:hover{color:var(--w)}
+@media(max-width:760px){.svc li{grid-template-columns:1fr;gap:10px}}
+
+/* academy */
+.academy{background:var(--o);color:#000}
+.academy .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center}
+.academy p{font-size:19px;max-width:50ch;margin-bottom:28px}
+.academy .btn{background:#000;color:var(--w)}
+.academy .btn:hover{background:#222}
+.academy ul{list-style:none;border-top:2px solid #000}
+.academy li{padding:15px 0;border-bottom:2px solid #000;font:700 18px 'Montserrat',sans-serif}
+@media(max-width:800px){.academy .wrap{grid-template-columns:1fr}}
+
+/* demos */
+.demos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:40px}
+.demo{background:var(--s1);border-left:4px solid var(--o);padding:20px}
+.demo h3{font-size:17px;margin-bottom:12px}
+.demo audio{width:100%;height:40px}
+
+/* trusted */
+.trust{background:var(--s1)}
+.trust h2{font-size:clamp(24px,3.2vw,36px)}
+.trust dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;margin-top:30px}
+.trust dt{font:700 15px 'Montserrat',sans-serif;color:var(--o2);margin-bottom:8px}
+.trust dd{color:var(--mute);font-size:16px;line-height:1.8}
+
+/* about */
+.about .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(30px,5vw,70px);align-items:center}
+.photo{aspect-ratio:4/5;background:var(--s2);display:grid;place-items:center;color:var(--mute);text-align:center;font-size:15px;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.about p{color:var(--mute);margin-bottom:16px}
+.about p strong{color:var(--w)}
+.creds{list-style:none;margin:22px 0 26px}
+.creds li{padding:10px 14px;background:var(--s1);border-left:3px solid var(--o);margin-bottom:8px;font-weight:500;font-size:16px}
+.soc{display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:800px){.about .wrap{grid-template-columns:1fr}.photo{max-width:360px}}
+
+/* contact */
+.contact{background:var(--s1)}
+form{margin-top:36px;max-width:760px}
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:600px){.r2{grid-template-columns:1fr}}
+label{display:block;font:600 14px 'Montserrat',sans-serif;margin:18px 0 7px}
+input,select,textarea{width:100%;font:inherit;color:var(--w);background:var(--ink);border:1px solid var(--line);padding:13px 14px;border-radius:0}
+select option{background:#111}
+textarea{min-height:140px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--o);border-color:var(--o)}
+.hint{color:var(--mute);font-size:14px;margin-top:6px}
+form .btn{margin-top:26px;width:100%;padding:18px;font-size:16px}
+.alt{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0 12px}
+.mail a{color:var(--o2)}
+#ok{display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--o);color:#000;font-weight:700;padding:14px 26px;z-index:99}
+
+footer{padding:34px 0;border-top:1px solid var(--line);color:var(--mute);font-size:14px;text-align:center}
+footer p+p{margin-top:6px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.wave i{animation:none}}
 </style>
-<!-- SEO: Structured Data (helps Google show your business info directly in search results) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Musembi Creations",
-  "description": "Journalist and voice artist offering commercial, corporate, radio imaging, documentary, e-learning and Skiza voice-overs in English, Swahili and Kikamba.",
-  "image": "https://musembicreations.co.ke/photo.jpg",
-  "logo": "https://musembicreations.co.ke/logo.png",
-  "url": "https://musembicreations.co.ke/",
-  "telephone": "+254788270218",
-  "email": "voiceofmusembi@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Kenya",
-    "addressCountry": "KE"
-  },
-  "areaServed": "Kenya",
-  "availableLanguage": ["English", "Swahili", "Kikamba"],
-  "sameAs": [
-    "https://www.tiktok.com/@VoiceOfMusembi",
-    "https://www.facebook.com/VoiceOfMusembi"
-  ]
-}
-</script>
-
-<!-- Analytics: Replace G-XXXXXXXXXX below with your real Measurement ID from analytics.google.com -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
-
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar">
-  <a href="#" class="navbar-logo">
-    <img src="logo-v2.png" alt="Musembi Creations Logo" onerror="this.style.display='none'">
-    <div class="navbar-logo-text">Musembi <span>Creations</span></div>
-  </a>
-</nav>
-
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <div class="hero-content">
-    <div class="hero-badge">🎙 Journalist & Voice Artist | Kenya</div>
-    <h1 class="hero-title">Your Brand.<br><em>My Voice.</em></h1>
-    <p class="hero-subtitle">Professional Voice-Over Services & Audio Production</p>
-    <p class="hero-sub">Broadcast-quality voice-overs for radio, TV, corporate, and digital media. English • Swahili • Kikamba. Based in Kenya.</p>
-    <div class="hero-buttons">
-      <a href="#contact" class="hero-cta">Start Your Project →</a>
-      <a href="#services" class="hero-cta outline">Browse Services & Demos ↓</a>
-    </div>
+<header class="nav">
+  <div class="wrap">
+    <a href="#top"><img src="logo.png" alt="Musembi Creations: Ideas, Voice, Impact"></a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#academy">Academy</a></li>
+      <li><a href="#demos">Demos</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="#contact" class="btn">Start a project</a>
   </div>
-</section>
+</header>
 
-<!-- ===== HOW IT WORKS BANNER ===== -->
-<div class="how-it-works">
-  <span class="how-it-works-icon">👇</span>
-  <span class="how-it-works-text">Tap a service below, listen to a sample, then fill in your project details — no back-and-forth needed</span>
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <h1><span>Ideas.</span><span>Voice.</span><span>Impact.</span></h1>
+    <p>Musembi Creations is the media studio of Kelvin Musembi, journalist and voice artist. We make voiceovers, video, scripts and podcasts, and we help people and brands sound like they mean it. English, Kiswahili and Kikamba.</p>
+    <div class="row">
+      <a href="#contact" class="btn">Start a project</a>
+      <a href="#services" class="btn ghost">See what we do</a>
+    </div>
+    <div class="wave" id="wave" aria-hidden="true"></div>
+  </div>
 </div>
 
-<!-- ===== STATS STRIP ===== -->
-<section class="stats-strip">
-  <div class="stats-inner">
-    <div class="stat-item">
-      <div class="stat-number">420K+</div>
-      <div class="stat-label">Followers on Facebook & TikTok</div>
+<div class="facts">
+  <div class="wrap">
+    <div><b>420K+</b><span>followers on Facebook and TikTok</span></div>
+    <div><b>2M+</b><span>likes across social media</span></div>
+    <div><b>100+</b><span>projects delivered</span></div>
+    <div><b>3</b><span>languages: English, Kiswahili, Kikamba</span></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <h2>What we make</h2>
+    <p class="lead">Pick a service and the request form opens with it already selected. Every project is quoted before work starts.</p>
+    <ul class="svc">
+      <li>
+        <h3>Voiceovers</h3>
+        <div>
+          <p>Broadcast-quality audio for commercials, corporate narration, radio and TV imaging, documentaries, e-learning, event promos, public announcements, Skiza tunes and DJ drops.</p>
+          <small>Most projects delivered within 24 hours.</small>
+        </div>
+        <button onclick="pick('Voiceovers')">Request a quote</button>
+      </li>
+      <li>
+        <h3>Voiceover + Video</h3>
+        <div>
+          <p>Your story voiced, cut and finished as a video that is ready to post or broadcast. Adverts, explainers, social reels, property tours and company profiles.</p>
+        </div>
+        <button onclick="pick('Voiceover + Video')">Request a quote</button>
+      </li>
+      <li>
+        <h3>Script Writing</h3>
+        <div>
+          <p>Scripts for ads, explainers, radio, video and podcasts, written to be heard, not just read. Tell us what you are promoting and we write it.</p>
+          <small>Free when booked with a paid voiceover.</small>
+        </div>
+        <button onclick="pick('Script Writing')">Request a quote</button>
+      </li>
+      <li>
+        <h3>Podcast Production</h3>
+        <div>
+          <p>From the idea and format to recording, editing, intros and outros, we take your podcast from first episode to a show people come back to.</p>
+        </div>
+        <button onclick="pick('Podcast Production')">Request a quote</button>
+      </li>
+      <li>
+        <h3>Media Consultation</h3>
+        <div>
+          <p>Practical advice from inside the media: on-air presence, content direction, radio, TV and social strategy, and how to carry your brand’s voice across all of them.</p>
+        </div>
+        <button onclick="pick('Media Consultation')">Book a consultation</button>
+      </li>
+      <li>
+        <h3>MC & Event Hosting</h3>
+        <div>
+          <p>A trained broadcaster’s voice and timing for launches, festivals, corporate events and community occasions.</p>
+        </div>
+        <button onclick="pick('MC & Event Hosting')">Check availability</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="academy" id="academy">
+  <div class="wrap">
+    <div>
+      <h2>Musembi Voice Academy</h2>
+      <p>Learn to use your voice on purpose. Training for aspiring voice artists, presenters, content creators and professionals who speak for a living or want to start.</p>
+      <button class="btn" onclick="pick('Voice Academy / Training')">Join the academy list</button>
     </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <div class="stat-number">2M+</div>
-      <div class="stat-label">Likes Across Social Media</div>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <div class="stat-number">100+</div>
-      <div class="stat-label">Projects Delivered</div>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <div class="stat-number">3</div>
-      <div class="stat-label">Languages — EN / SW / Kikamba</div>
+    <ul>
+      <li>Voice and breath control</li>
+      <li>Reading scripts with feeling</li>
+      <li>Microphone and recording basics</li>
+      <li>Building a voiceover career</li>
+    </ul>
+  </div>
+</section>
+
+<section id="demos">
+  <div class="wrap">
+    <h2>Listen first</h2>
+    <p class="lead">A few samples of the voice. Ask us for more in your category.</p>
+    <div class="demos">
+      <div class="demo"><h3>Commercial</h3><audio controls preload="none"><source src="commercial-demo.mp3" type="audio/mpeg"></audio></div>
+      <div class="demo"><h3>Corporate narration</h3><audio controls preload="none"><source src="corporate-demo.mp3" type="audio/mpeg"></audio></div>
+      <div class="demo"><h3>Radio imaging</h3><audio controls preload="none"><source src="radio-imaging-demo.mp3" type="audio/mpeg"></audio></div>
+      <div class="demo"><h3>Documentary</h3><audio controls preload="none"><source src="documentary-demo.mp3" type="audio/mpeg"></audio></div>
+      <div class="demo"><h3>Skiza tune</h3><audio controls preload="none"><source src="skiza-demo.mp3" type="audio/mpeg"></audio></div>
+      <div class="demo"><h3>Kiswahili</h3><audio controls preload="none"><source src="swahili-demo-1.mp3" type="audio/mpeg"></audio></div>
     </div>
   </div>
 </section>
 
-<!-- ===== SERVICES ===== -->
-<section class="section" id="services">
-  <div class="section-label">What We Offer</div>
-  <h2 class="section-title">Services <em>& Demos</em></h2>
-  <p class="section-intro">Listen to a sample for each service, then tap "Select & Request Quote" to jump straight to the booking form with that category pre-filled.</p>
-
-  <div class="services-grid">
-
-    <div class="service-card">
-      <div class="service-icon">📻</div>
-      <div class="service-name">Commercial Voice-Overs</div>
-      <div class="service-desc">Radio ads, TV commercials, social media adverts, and product promotions.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="commercial-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Commercial Voice-Overs')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🏢</div>
-      <div class="service-name">Corporate Narration</div>
-      <div class="service-desc">Company profile videos, corporate presentations, explainer videos, and training content.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="corporate-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Corporate Narration')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">📡</div>
-      <div class="service-name">Radio & Broadcast Imaging</div>
-      <div class="service-desc">Station IDs, show promos, program intros, sweepers and liners for radio and TV.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="radio-imaging-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Radio & Broadcast Imaging')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🎬</div>
-      <div class="service-name">Documentary Narration</div>
-      <div class="service-desc">Documentaries, educational content, historical features, and environmental stories.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="documentary-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Documentary Narration')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🎪</div>
-      <div class="service-name">Event Promotions</div>
-      <div class="service-desc">Concert promos, festival campaigns, roadshows, and product launch promotions.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="event-promo-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Event Promotions')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">📱</div>
-      <div class="service-name">Skiza Tunes</div>
-      <div class="service-desc">Custom Safaricom Skiza ringback tones for personal brands, businesses, and public figures.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="skiza-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Skiza Tunes')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">📢</div>
-      <div class="service-name">Public Announcements</div>
-      <div class="service-desc">Government campaigns, NGO awareness, road safety messages, and public service announcements.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="public-announcement-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Public Announcements')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">📚</div>
-      <div class="service-name">E-Learning Narration</div>
-      <div class="service-desc">Online courses, educational modules, school content, and training programs.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="elearning-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('E-Learning Narration')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🏠</div>
-      <div class="service-name">Real Estate Voice-Overs</div>
-      <div class="service-desc">Property showcases, land sales promotions, Airbnb listings, and virtual property tours.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="real-estate-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Real Estate Voice-Overs')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">📱</div>
-      <div class="service-name">Social Media Voice-Overs</div>
-      <div class="service-desc">TikTok voice-overs, YouTube narration, Facebook video narration, and Reels & Shorts.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="social-media-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('Social Media Voice-Overs')">Select & Request Quote →</button>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🎧</div>
-      <div class="service-name">DJ Drops</div>
-      <div class="service-desc">Custom DJ name drops and tags for mixes, sets, and radio shows.</div>
-      <div class="service-price quote">Custom Quote</div>
-      <div class="service-listen">
-        <div class="service-listen-label">Sample</div>
-        <audio controls><source src="dj-drop-demo.mp3" type="audio/mpeg"></audio>
-      </div>
-      <button class="service-select-btn" onclick="selectService('DJ Drops')">Select & Request Quote →</button>
-    </div>
-
+<section class="trust">
+  <div class="wrap">
+    <h2>Trusted by stations, brands and institutions</h2>
+    <dl>
+      <div><dt>Radio and TV</dt><dd>Radio France International<br>Radio Maisha<br>Kwitu FM<br>Kamba TV</dd></div>
+      <div><dt>Brands and companies</dt><dd>Festive Bread<br>Greenlife Crop Protection Africa<br>Mozzart Bet<br>Cyberpro<br>Ngumo Festival<br>Football Kenya Federation<br>Selmax Media Group / Orbit TV</dd></div>
+      <div><dt>Institutions</dt><dd>AFSTA<br>WOBS Emergency Care</dd></div>
+    </dl>
   </div>
 </section>
 
-<!-- ===== KISWAHILI DEMOS ===== -->
-<section class="section" id="kiswahili">
-  <div class="section-label">Also Fluent In</div>
-  <h2 class="section-title">Kiswahili <em>Demos</em></h2>
-  <p class="section-intro">We do English and Swahili voice-overs. Here are some Kiswahili samples.</p>
-
-  <div class="swahili-grid">
-    <div class="swahili-card">
-      <div class="swahili-card-label">Demo 1</div>
-      <audio controls><source src="swahili-demo-1.mp3" type="audio/mpeg"></audio>
-    </div>
-    <div class="swahili-card">
-      <div class="swahili-card-label">Demo 2</div>
-      <audio controls><source src="swahili-demo-2.mp3" type="audio/mpeg"></audio>
-    </div>
-    <div class="swahili-card">
-      <div class="swahili-card-label">Demo 3</div>
-      <audio controls><source src="swahili-demo-3.mp3" type="audio/mpeg"></audio>
-    </div>
-    <div class="swahili-card">
-      <div class="swahili-card-label">Demo 4</div>
-      <audio controls><source src="swahili-demo-4.mp3" type="audio/mpeg"></audio>
-    </div>
-  </div>
-</section>
-
-<!-- ===== TRUSTED BY ===== -->
-<section class="trusted-section">
-  <div class="trusted-inner">
-    <div class="trusted-label">Trusted by leading brands, stations & institutions</div>
-    <div class="trusted-groups">
-      <div class="trusted-group">
-        <h4>Radio & TV Stations</h4>
-        <div class="trusted-names">
-          <div class="trusted-name">Radio France International</div>
-          <div class="trusted-name">Radio Maisha</div>
-          <div class="trusted-name">Kwitu FM</div>
-          <div class="trusted-name">Kamba TV</div>
-        </div>
-      </div>
-      <div class="trusted-group">
-        <h4>Brands & Companies</h4>
-        <div class="trusted-names">
-          <div class="trusted-name">Festive Bread</div>
-          <div class="trusted-name">Greenlife Crop Protection Africa</div>
-          <div class="trusted-name">Mozzart Bet</div>
-          <div class="trusted-name">Cyberpro</div>
-          <div class="trusted-name">Ngumo Festival</div>
-          <div class="trusted-name">Football Kenya Federation</div>
-          <div class="trusted-name">Selmax Media Group / Orbit TV</div>
-        </div>
-      </div>
-      <div class="trusted-group">
-        <h4>Institutions</h4>
-        <div class="trusted-names">
-          <div class="trusted-name">AFSTA</div>
-          <div class="trusted-name">WOBS Emergency Care</div>
-        </div>
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="photo"><img src="photo.jpg" alt="Kelvin Musembi" onerror="this.remove();this.parentNode.textContent='Add photo.jpg next to index.html'"></div>
+    <div>
+      <h2>Hi, I’m Kelvin Musembi</h2>
+      <p>I’m a <strong>journalist and voice artist</strong> based in Kenya. Musembi Creations began with my voice and has grown into everything around it: the scripts, the video, the podcasts and the people who want to learn to do it too.</p>
+      <p>Whatever the project, the aim is the same: a clear idea, a voice that carries it, and work that makes an impact.</p>
+      <ul class="creds">
+        <li>Broadcast Journalism, Multimedia University of Kenya</li>
+        <li>English, Kiswahili and Kikamba</li>
+        <li>420K+ followers and 2M+ likes across social media</li>
+      </ul>
+      <div class="soc">
+        <a class="btn ghost" href="https://www.facebook.com/VoiceOfMusembi" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn ghost" href="https://www.tiktok.com/@VoiceOfMusembi" target="_blank" rel="noopener">TikTok</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== ABOUT ME ===== -->
-<section class="about-section" id="about">
-  <div class="about-inner">
-
-    <!-- PHOTO COLUMN -->
-    <div class="about-photo-col">
-      <div class="about-photo-wrap">
-        <img
-          src="photo.jpg"
-          alt="Kelvin Musembi — Musembi Creations"
-          class="about-photo"
-          onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'>📷<br><span>Upload photo.jpg<br>to GitHub</span></div>'"
-        >
-        <div class="about-photo-badge">🎙 Available for Projects</div>
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Tell us what you’re making</h2>
+    <p class="lead">Send the details and they land straight in WhatsApp. Most inquiries get a reply within an hour during business hours.</p>
+    <form onsubmit="send(event)">
+      <div class="r2">
+        <div><label for="name">Your name</label><input id="name" required autocomplete="name"></div>
+        <div><label for="phone">Phone number</label><input id="phone" type="tel" placeholder="07XX XXX XXX" required autocomplete="tel"></div>
       </div>
-    </div>
-
-    <!-- TEXT COLUMN -->
-    <div class="about-text-col">
-      <div class="section-label">The Voice Behind the Brand</div>
-      <h2 class="section-title" style="margin-bottom:20px;">About <em>Me</em></h2>
-
-      <p class="about-bio">
-        I'm <strong>Kelvin Musembi</strong> — a journalist and voice artist based in Kenya. Operating under the brand <strong>Musembi Creations</strong>, I deliver voice-overs in <strong>English, Swahili, and Kikamba</strong> with clarity, authority, and emotion — giving your brand the voice it deserves.
-      </p>
-
-      <div class="about-credentials">
-        <div class="credential">🎓 Broadcast Journalism — Multimedia University of Kenya</div>
-        <div class="credential">🌍 Languages — English • Swahili • Kikamba</div>
-        <div class="credential">🏆 420K+ Followers | 2M+ Likes across social media</div>
+      <div class="r2">
+        <div><label for="email">Email (optional)</label><input id="email" type="email" autocomplete="email"></div>
+        <div><label for="biz">Business or brand</label><input id="biz" required></div>
       </div>
-
-      <!-- Social Media Links -->
-      <div class="about-socials">
-        <a href="https://www.facebook.com/VoiceOfMusembi" target="_blank" class="social-btn facebook">
-          <span class="social-icon">f</span>
-          <span class="social-info">
-            <span class="social-name">Facebook</span>
-            <span class="social-handle">@VoiceOfMusembi</span>
-          </span>
-        </a>
-        <a href="https://www.tiktok.com/@VoiceOfMusembi" target="_blank" class="social-btn tiktok">
-          <span class="social-icon">♪</span>
-          <span class="social-info">
-            <span class="social-name">TikTok</span>
-            <span class="social-handle">@VoiceOfMusembi</span>
-          </span>
-        </a>
+      <label for="service">Service</label>
+      <select id="service" required>
+        <option value="">Choose a service</option>
+        <option>Voiceovers</option>
+        <option>Voiceover + Video</option>
+        <option>Script Writing</option>
+        <option>Podcast Production</option>
+        <option>Media Consultation</option>
+        <option>Voice Academy / Training</option>
+        <option>MC & Event Hosting</option>
+        <option>Not sure, help me choose</option>
+      </select>
+      <div class="r2">
+        <div><label for="lang">Language</label>
+          <select id="lang"><option>English</option><option>Kiswahili</option><option>Kikamba</option><option>English & Kiswahili</option><option>Not applicable</option></select></div>
+        <div><label for="deadline">Deadline (optional)</label><input id="deadline" type="date"></div>
       </div>
-
-      <a href="#contact" class="about-cta">Work With Me →</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ===== WHY CHOOSE ME ===== -->
-<section class="why-section">
-  <div class="why-inner">
-    <div class="section-label">Why Work With Me</div>
-    <h2 class="section-title">What Sets <em>Me Apart</em></h2>
-
-    <div class="why-grid">
-      <div class="why-card">
-        <div class="why-icon">🎧</div>
-        <div class="why-title">Broadcast-Quality Audio</div>
-        <div class="why-desc">Professional studio setup delivering broadcast-ready audio every single time.</div>
-      </div>
-      <div class="why-card">
-        <div class="why-icon">⚡</div>
-        <div class="why-title">Fast Turnaround</div>
-        <div class="why-desc">Most projects delivered within 24 hours. Rush delivery available on request.</div>
-      </div>
-      <div class="why-card">
-        <div class="why-icon">💬</div>
-        <div class="why-title">Professional Communication</div>
-        <div class="why-desc">Clear, responsive communication from brief to final delivery. No guesswork.</div>
-      </div>
-      <div class="why-card">
-        <div class="why-icon">🌍</div>
-        <div class="why-title">Multilingual Delivery</div>
-        <div class="why-desc">Professional voice-overs in English, Swahili, and Kikamba for wider reach.</div>
-      </div>
-      <div class="why-card">
-        <div class="why-icon">🎙️</div>
-        <div class="why-title">Custom Voice Styles</div>
-        <div class="why-desc">From conversational to authoritative — adapted to match your brand's tone and target audience.</div>
-      </div>
-      <div class="why-card">
-        <div class="why-icon">✍️</div>
-        <div class="why-title">Free Script Writing</div>
-        <div class="why-desc">No script yet? Every booking includes free script writing — just tell us what you're promoting.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== CONTACT / BOOKING ===== -->
-<section class="contact-section" id="contact">
-  <div class="contact-inner">
-    <div class="section-label">Get in Touch</div>
-    <h2 class="section-title">Request a <em>Quote</em></h2>
-    <p class="section-intro">Fill in the form below and your details will be sent directly to WhatsApp for a fast response.</p>
-
-    <form onsubmit="handleSubmit(event)">
-      <div class="form-row">
-        <div class="form-group">
-          <label class="form-label">Your Name</label>
-          <input type="text" class="form-input" id="name" placeholder="Full name" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Phone Number</label>
-          <input type="tel" class="form-input" id="phone" placeholder="07XX XXX XXX" required>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Email Address (optional)</label>
-        <input type="email" class="form-input" id="email" placeholder="your@email.com">
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Business / Brand Name</label>
-        <input type="text" class="form-input" id="business" placeholder="Your company or brand" required>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">What Do You Deal In? (optional)</label>
-        <input type="text" class="form-input" id="businessType" placeholder="e.g. Real estate, cosmetics, or your website/social media link">
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Voice-Over Category</label>
-        <select class="form-select" id="service" required>
-          <option value="">— Select a category —</option>
-          <option>Commercial Voice-Overs</option>
-          <option>Corporate Narration</option>
-          <option>Radio & Broadcast Imaging</option>
-          <option>Documentary Narration</option>
-          <option>Event Promotions</option>
-          <option>Skiza Tunes</option>
-          <option>Public Announcements</option>
-          <option>E-Learning Narration</option>
-          <option>Real Estate Voice-Overs</option>
-          <option>Social Media Voice-Overs</option>
-          <option>DJ Drops</option>
-          <option>Not Sure — Help Me Choose</option>
-        </select>
-        <p class="form-hint">Not sure which one? Tell us what the ad is for and where it'll play below, and we'll match it for you.</p>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label class="form-label">Intended Platform</label>
-          <select class="form-select" id="platform" required>
-            <option value="">— Select platform —</option>
-            <option>TV</option>
-            <option>Radio</option>
-            <option>Facebook</option>
-            <option>TikTok</option>
-            <option>Instagram</option>
-            <option>YouTube</option>
-            <option>WhatsApp Status</option>
-            <option>IVR / Phone System</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Approximate Duration</label>
-          <select class="form-select" id="duration" required>
-            <option value="">— Select duration —</option>
-            <option>Up to 15 seconds</option>
-            <option>15–30 seconds</option>
-            <option>31–60 seconds</option>
-            <option>1–2 minutes</option>
-            <option>2–5 minutes</option>
-            <option>5–10 minutes</option>
-            <option>10+ minutes</option>
-            <option>Priced per audio hour (e.g. e-learning)</option>
-            <option>Not sure yet</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label class="form-label">Preferred Language</label>
-          <select class="form-select" id="language" required>
-            <option value="">— Select language —</option>
-            <option>English</option>
-            <option>Swahili</option>
-            <option>Kikamba</option>
-            <option>English & Swahili (Bilingual)</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Deadline</label>
-          <input type="date" class="form-input" id="deadline" required>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Your Script (if you have one)</label>
-        <textarea class="form-textarea" id="script" placeholder="Paste your script here. Don't have one yet? Leave this blank and describe your product/business below — script writing is free with every booking."></textarea>
-        <p class="form-hint">Have a script as a document instead? Submit this form, then attach the file directly in the WhatsApp chat that opens.</p>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Additional Notes</label>
-        <textarea class="form-textarea" id="notes" placeholder="Tone, target audience, what you're promoting, usage rights needed, or anything else we should know..." required></textarea>
-      </div>
-
-      <p class="pricing-note">* Every project is priced individually based on usage rights, length, and turnaround time. A confirmed quote is shared before any work begins. Script writing is free when bundled with a paid booking.</p>
-
-      <button type="submit" class="submit-btn">Send Inquiry via WhatsApp →</button>
+      <label for="notes">Project details</label>
+      <textarea id="notes" required placeholder="What is it for, who is it for, where will it play, and how long? Paste your script here if you have one."></textarea>
+      <p class="hint">Have a script or brief as a file? Send the form, then attach it in the WhatsApp chat that opens.</p>
+      <button class="btn" type="submit">Send inquiry on WhatsApp</button>
     </form>
-
-    <div class="contact-alts">
-      <a href="whatsapp://send?phone=254788270218" class="wa-btn">💬 WhatsApp: 0788 270 218</a>
-      <a href="tel:+254701911822" class="call-btn">📞 Call: 0701 911 822</a>
+    <div class="alt">
+      <a class="btn ghost" href="https://wa.me/254788270218">WhatsApp 0788 270 218</a>
+      <a class="btn ghost" href="tel:+254701911822">Call 0701 911 822</a>
     </div>
-
-    <p class="response-promise">⚡ <strong>Fast response guaranteed</strong> — most inquiries answered within 1 hour during business hours.</p>
-
-    <div class="contact-email">
-      ✉ <a href="mailto:voiceofmusembi@gmail.com">voiceofmusembi@gmail.com</a>
-    </div>
-
+    <p class="mail"><a href="mailto:voiceofmusembi@gmail.com">voiceofmusembi@gmail.com</a></p>
   </div>
 </section>
+</main>
 
-<!-- ===== FOOTER ===== -->
 <footer>
-  <p><strong>Musembi Creations</strong> — Journalist & Voice Artist | Kenya</p>
-  <p style="margin-top:10px;">© 2026 All Rights Reserved &nbsp;|&nbsp; musembicreations.co.ke &nbsp;|&nbsp; @VoiceOfMusembi on Facebook & TikTok</p>
+  <p><strong>Musembi Creations</strong>: Ideas, Voice, Impact. Kenya.</p>
+  <p>© 2026 All rights reserved. musembicreations.co.ke</p>
 </footer>
-
-<!-- SUCCESS BANNER -->
-<div id="success-banner">✅ Sending your inquiry via WhatsApp...</div>
-
-
+<div id="ok" role="status">Opening WhatsApp…</div>
 
 <script>
-function selectService(serviceName) {
-  const sel = document.getElementById('service');
-  if (sel) sel.value = serviceName;
-  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
-  setTimeout(() => { document.getElementById('name').focus(); }, 600);
+// waveform: built once, bars rise on load
+(function(){
+  var w=document.getElementById('wave'),n=Math.min(64,Math.floor(innerWidth/16)),s=7;
+  for(var i=0;i<n;i++){
+    s=(s*9301+49297)%233280;
+    var env=Math.sin(Math.PI*(i+.5)/n),h=14+env*(40+(s/233280)*46),b=document.createElement('i');
+    b.style.height=h+'%';b.style.animationDelay=(i*18)+'ms';w.appendChild(b);
+  }
+})();
+
+function pick(name){
+  document.getElementById('service').value=name;
+  document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+  setTimeout(function(){document.getElementById('name').focus({preventScroll:true})},600);
 }
 
-function handleSubmit(event) {
-  event.preventDefault();
-
-  const name     = document.getElementById('name').value;
-  const phone    = document.getElementById('phone').value;
-  const email    = document.getElementById('email').value;
-  const business = document.getElementById('business').value;
-  const businessType = document.getElementById('businessType').value;
-  const service  = document.getElementById('service').value;
-  const platform = document.getElementById('platform').value;
-  const duration = document.getElementById('duration').value;
-  const language = document.getElementById('language').value;
-  const deadline = document.getElementById('deadline').value;
-  const script   = document.getElementById('script').value;
-  const notes    = document.getElementById('notes').value;
-
-  const message = encodeURIComponent(
-    `*NEW QUOTE REQUEST — Musembi Creations*\n\n` +
-    `*Name:* ${name}\n` +
-    `*Phone:* ${phone}\n` +
-    `*Email:* ${email || 'Not provided'}\n` +
-    `*Business:* ${business}\n` +
-    `*What They Deal In:* ${businessType || 'Not provided'}\n` +
-    `*Category:* ${service}\n` +
-    `*Platform:* ${platform}\n` +
-    `*Duration:* ${duration}\n` +
-    `*Language:* ${language}\n` +
-    `*Deadline:* ${deadline}\n\n` +
-    `*Script:*\n${script ? script : '(No script yet — needs writing, free with booking)'}\n\n` +
-    `*Additional Notes:*\n${notes}`
-  );
-
-  const number = '254788270218';
-  const waURL = `https://api.whatsapp.com/send?phone=${number}&text=${message}`;
-
-  // Show success banner
-  const banner = document.getElementById('success-banner');
-  if (banner) {
-    banner.style.display = 'block';
-    setTimeout(() => { banner.style.display = 'none'; }, 5000);
-  }
-
-  // Reset form
-  document.querySelector('form').reset();
-
-  // Open WhatsApp directly — works across normal browsers and TikTok/Facebook in-app browsers
-  setTimeout(() => {
-    window.location.href = waURL;
-  }, 300);
+function send(e){
+  e.preventDefault();
+  var v=function(id){return document.getElementById(id).value.trim()};
+  var msg=encodeURIComponent(
+    '*NEW INQUIRY: Musembi Creations*\n\n'+
+    '*Name:* '+v('name')+'\n*Phone:* '+v('phone')+'\n*Email:* '+(v('email')||'Not provided')+
+    '\n*Business:* '+v('biz')+'\n*Service:* '+v('service')+'\n*Language:* '+v('lang')+
+    '\n*Deadline:* '+(v('deadline')||'Not set')+'\n\n*Details:*\n'+v('notes'));
+  var ok=document.getElementById('ok');ok.style.display='block';
+  setTimeout(function(){ok.style.display='none'},5000);
+  e.target.reset();
+  setTimeout(function(){location.href='https://api.whatsapp.com/send?phone=254788270218&text='+msg},300);
 }
 </script>
-
 </body>
 </html>
