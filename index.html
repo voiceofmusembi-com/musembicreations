@@ -109,6 +109,7 @@ h2{font-size:clamp(30px,4.6vw,52px);margin-bottom:18px}
 .trust dt{font:700 15px 'Montserrat',sans-serif;color:var(--o2);margin-bottom:8px}
 .trust dd{color:var(--mute);font-size:16px;line-height:1.8}
 
+.tr{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:30px}.tr div{background:#fff;height:88px;display:grid;place-items:center;padding:14px}.tr div.top{grid-column:span 2}.tr img{max-width:100%;max-height:100%;object-fit:contain}.tr div.nl{background:var(--s2);color:#fff;font:600 14px Montserrat,sans-serif;text-align:center;border-left:3px solid var(--o)}
 /* about */
 .about .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(30px,5vw,70px);align-items:center}
 .photo{aspect-ratio:4/5;background:var(--s2);display:grid;place-items:center;color:var(--mute);text-align:center;font-size:15px;overflow:hidden}
@@ -281,12 +282,8 @@ footer p+p{margin-top:6px}
 
 <section class="trust">
   <div class="wrap">
-    <h2>Trusted by stations, brands and institutions</h2>
-    <dl>
-      <div><dt>Radio and TV</dt><dd>Radio France International<br>Radio Maisha<br>Kwitu FM<br>Kamba TV</dd></div>
-      <div><dt>Brands and companies</dt><dd>Festive Bread<br>Greenlife Crop Protection Africa<br>Mozzart Bet<br>Cyberpro<br>Ngumo Festival<br>Football Kenya Federation<br>Selmax Media Group / Orbit TV</dd></div>
-      <div><dt>Institutions</dt><dd>AFSTA<br>WOBS Emergency Care</dd></div>
-    </dl>
+    <h2>Trusted by leading brands, stations and institutions</h2>
+    <div class="tr"><div class="top"><img src="logos/safaricom.png" alt="Safaricom" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/rfi.png" alt="Radio France Internationale" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/radio-maisha.png" alt="Radio Maisha" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/kwitu-fm.png" alt="Kwitu FM" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/kamba-tv.png" alt="Kamba TV" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/festive.png" alt="Festive Bread" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/greenlife.png" alt="Greenlife Crop Protection Africa" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/mozzart.png" alt="Mozzart Bet" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/cyberpro.png" alt="Cyberpro" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/ngumo.png" alt="Ngumo Festival" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/fkf.png" alt="Football Kenya Federation" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/orbit-tv.png" alt="Selmax Media Group / Orbit TV" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/afsta.png" alt="AFSTA" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div><div><img src="logos/wobs.png" alt="WOBS Emergency Care" loading="lazy" onerror="var d=this.parentNode;d.className+=' nl';d.textContent=this.alt"></div></div>
   </div>
 </section>
 
